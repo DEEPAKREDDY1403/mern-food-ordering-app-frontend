@@ -27,3 +27,11 @@ export type User = {
     lastUpdated: string;
   };
   
+  export type RestaurantSearchResponse = {
+    data: Restaurant[];
+    pagination:{
+      total: number;
+      page: number;
+      pages: number;
+    };
+  };
