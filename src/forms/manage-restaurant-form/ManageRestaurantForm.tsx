@@ -9,7 +9,7 @@ import ImageSection from "./ImageSection";
 import LoadingButton from "../../components/LoadingButton";
 import { Button } from "../../components/ui/button";
 import CuisinesSection from "./CuisinesSection";
-import { Restaurant } from "../../types";
+import { Restaurant } from  "../../types";
 import { useEffect } from "react";
 
 const formschema = z.object({
